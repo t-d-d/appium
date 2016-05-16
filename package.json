@@ -35,7 +35,7 @@
     "doc": "./docs"
   },
   "dependencies": {
-    "appium-android-driver": "^1.10.1",
+    "appium-android-driver": "t-d-d/appium-android-driver#master",
     "appium-base-driver": "^1.5.0",
     "appium-express": "^1.2.2",
     "appium-fake-driver": "^0.1.9",
@@ -62,6 +62,9 @@
     "prepublish": "gulp prepublish",
     "test": "gulp once",
     "watch": "gulp"
+  },
+  "config": {
+    "unsafe-perm": true
   },
   "devDependencies": {
     "appium-gulp-plugins": "^1.4.5",
